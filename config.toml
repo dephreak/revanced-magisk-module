@@ -7,16 +7,16 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 # you can use rvmm-config-gen to generate a config
 
 [YouTube]
-build-mode = "both"
-excluded-patches = ""
+build-mode = "module"
+excluded-patches = "'Always autorepeat' 'Vanced MicroG support' 'Hide info cards' 'Hide timestamp' 'Comments' 'Hide seekbar' 'Hide layout components' 'Player flyout menu' 'Hide 'Load more' button' 'Hide floating microphone button' 'Hide endscreen cards' 'Hide album cards' 'Hide filter bar' 'Hide email address' 'Spoof app version' 'Disable Shorts on startup' 'Hide cast button' 'Hide captions button' 'Hide autoplay button' 'Disable player popup panels'"
 included-patches = ""
 version = "auto"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
 [Music]
-build-mode = "both"
+build-mode = "module"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
-apkmirror-arch = "both"
+apkmirror-arch = "arm-v7a"
 
 [Music-Extended]
 app-name = "Music"
@@ -24,9 +24,9 @@ patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
-build-mode = "both"
+build-mode = "module"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
-apkmirror-arch = "both"
+apkmirror-arch = "arm-v7a"
 
 [YouTube-Extended]
 app-name = "YouTube"
@@ -34,7 +34,7 @@ patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
-build-mode = "both"
+build-mode = "module"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 
 [Twitter]
