@@ -1,6 +1,6 @@
 {
   "version": "v6.28.52",
-  "versionCode": 9,
-  "zipUrl": "https://github.com/dephreak/revanced-magisk-module/releases/download/9/music-revanced-extended-magisk-v6.28.52-arm-v7a.zip",
+  "versionCode": 12,
+  "zipUrl": "https://github.com/dephreak/revanced-magisk-module/releases/download/12/music-revanced-extended-magisk-v6.28.52-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/dephreak/revanced-magisk-module/update/build.md"
 }
